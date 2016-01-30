@@ -1,25 +1,97 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hi_Kids" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Joe" translatesAutoresizingMaskIntoConstraints="NO" id="aco-e1-Oi3">
+                                <rect key="frame" x="0.0" y="5" width="320" height="195"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Adam" translatesAutoresizingMaskIntoConstraints="NO" id="xFK-2y-NkX">
+                                <rect key="frame" x="0.0" y="376" width="320" height="192"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zrt-M4-zbw">
+                                <rect key="frame" x="50" y="86" width="221" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Say Hi Joe">
+                                    <color key="titleColor" red="1" green="0.17556798279098518" blue="0.21842621492738479" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sayhijoe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LMs-lA-zYV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lb6-Kf-XPX">
+                                <rect key="frame" x="48" y="233" width="221" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title=" Say Hi Emily">
+                                    <color key="titleColor" red="1" green="0.24462205255461311" blue="0.9636558214955997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sayhiemily:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9w2-qo-sIB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcG-4K-YaA">
+                                <rect key="frame" x="75" y="395" width="171" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <state key="normal" title="Say Hi Adam">
+                                    <color key="titleColor" red="0.13138950920621409" green="0.7717400196335078" blue="0.088348284214968584" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="sayhiadam:" destination="BYZ-38-t0r" eventType="touchUpInside" id="72T-PW-jQW"/>
+                                </connections>
+                            </button>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HiJoe" translatesAutoresizingMaskIntoConstraints="NO" id="BGg-Wt-lsS">
+                                <rect key="frame" x="71" y="146" width="175" height="54"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hi Adam" translatesAutoresizingMaskIntoConstraints="NO" id="heq-wI-thb">
+                                <rect key="frame" x="38" y="527" width="252" height="46"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Hi Emily" translatesAutoresizingMaskIntoConstraints="NO" id="8Eg-gn-0Xj">
+                                <rect key="frame" x="38" y="335" width="245" height="52"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Emily" translatesAutoresizingMaskIntoConstraints="NO" id="q6z-6q-4NF">
+                                <rect key="frame" x="0.0" y="196" width="320" height="186"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="adam" destination="xFK-2y-NkX" id="9li-yy-eEm"/>
+                        <outlet property="emily" destination="q6z-6q-4NF" id="K9d-o0-9pz"/>
+                        <outlet property="hiadam" destination="heq-wI-thb" id="h3X-su-lBe"/>
+                        <outlet property="hiadambutton" destination="hcG-4K-YaA" id="btJ-eY-L7Q"/>
+                        <outlet property="hiemily" destination="8Eg-gn-0Xj" id="S1f-0R-ioZ"/>
+                        <outlet property="hiemilybutton" destination="Lb6-Kf-XPX" id="eFS-Z8-4bZ"/>
+                        <outlet property="hijoe" destination="BGg-Wt-lsS" id="FtU-x9-pDP"/>
+                        <outlet property="hijoebutton" destination="Zrt-M4-zbw" id="927-DI-jyn"/>
+                        <outlet property="joe" destination="aco-e1-Oi3" id="hYa-KI-yr2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-72" y="199"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Adam" width="2448" height="3264"/>
+        <image name="Emily" width="3264" height="2448"/>
+        <image name="Hi Adam" width="415" height="159"/>
+        <image name="Hi Emily" width="384" height="147"/>
+        <image name="HiJoe" width="232" height="93"/>
+        <image name="Joe" width="960" height="630"/>
+    </resources>
 </document>
