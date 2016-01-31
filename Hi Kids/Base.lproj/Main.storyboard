@@ -25,8 +25,8 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zrt-M4-zbw">
                                 <rect key="frame" x="50" y="86" width="221" height="30"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Say Hi Joe">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                                <state key="normal" title="Say Hi to Joe">
                                     <color key="titleColor" red="1" green="0.17556798279098518" blue="0.21842621492738479" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -34,19 +34,19 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lb6-Kf-XPX">
-                                <rect key="frame" x="48" y="233" width="221" height="30"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title=" Say Hi Emily">
+                                <rect key="frame" x="38" y="233" width="231" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <state key="normal" title="Say Hi to Emily">
                                     <color key="titleColor" red="1" green="0.24462205255461311" blue="0.9636558214955997" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="sayhiemily:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9w2-qo-sIB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcG-4K-YaA">
-                                <rect key="frame" x="75" y="395" width="171" height="30"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
-                                <state key="normal" title="Say Hi Adam">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcG-4K-YaA">
+                                <rect key="frame" x="11" y="395" width="296" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <state key="normal" title="Say Hi to Adam">
                                     <color key="titleColor" red="0.13138950920621409" green="0.7717400196335078" blue="0.088348284214968584" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -63,7 +63,7 @@
                                 <rect key="frame" x="38" y="335" width="245" height="52"/>
                             </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Emily" translatesAutoresizingMaskIntoConstraints="NO" id="q6z-6q-4NF">
-                                <rect key="frame" x="0.0" y="196" width="320" height="186"/>
+                                <rect key="frame" x="0.0" y="191" width="320" height="186"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
